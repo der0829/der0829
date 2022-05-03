@@ -40,7 +40,7 @@ h1{
     color: #000;
 }
 #container{
-    width: 70%;
+    width: 1000px;
     margin: 40px auto;
     padding: 40px 80px;
     padding: auto;
@@ -78,7 +78,7 @@ section{
 .ul li,table{
     margin-left: 20px;
 }
-header,nav{
+header,nav,footer{
     text-align: center;
 }
 th{
