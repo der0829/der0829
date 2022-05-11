@@ -1,41 +1,25 @@
 body{
-    background-color: rgb(180, 204, 255);
-    color: rgb(255, 64, 89);
     margin: 0px;
 }
-h1{
-    color:rgb(127, 80, 255);
-}
-#container{
-    background-color: rgb(250, 197, 173);
-    margin: 0 auto;
-    width: 980px;
-}
-header{
-    background-color: rgb(169, 245, 245);
-}
 nav{
-    background-color: blanchedalmond;
-}
-.nav{
     background-color: rgb(152, 248, 252);
     text-align: right;
     margin: 0px;
 }
-.nav ul{
+nav ul{
     margin: 0px;
 }
-.nav li{
+nav li{
     list-style-type: none;
     display: inline-block;
 }
-.nav li a{
+nav li a{
     display: block;
     text-decoration: none;
     padding: 10px;
     color: rgb(255, 136, 0);
 }
-.nav li a:hover{
+nav li a:hover{
     background-color: rgb(255, 255, 240);
     color: rgb(255, 198, 198);
     transition: background-color 2s linear, color 2s;  

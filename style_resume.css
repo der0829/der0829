@@ -78,9 +78,35 @@ section{
 .ul li,table{
     margin-left: 20px;
 }
-header,nav,footer{
+header,.menu,footer{
     text-align: center;
 }
 th{
     width: 60px;
+}
+body{
+    margin: 0px;
+}
+.nav{
+    background-color: rgb(152, 248, 252);
+    text-align: right;
+    margin: 0px;
+}
+.nav ul{
+    margin: 0px;
+}
+.nav li{
+    list-style-type: none;
+    display: inline-block;
+}
+.nav li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(255, 136, 0);
+}
+.nav li a:hover{
+    background-color: rgb(255, 255, 240);
+    color: rgb(255, 198, 198);
+    transition: background-color 2s linear, color 2s;  
 }
